@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Layout Small Screens - 50px to 500px */
+
+body {
+	font-size: 1.125em;  /* was 14 px */
+}
+
+.page {
+	max-width: 350px;
+	}
+
+header {
+	height: 100px;
+	padding: 5px 0;
+	background: url(../images/banner_large.jpg) no-repeat right 0px;
+	}	 
+	
+article {
+	margin: 0px 0px 0px 0px;
+}
+	
+.article-right {
+	margin: 0px 0px 0px 0px;
+}
+	
+	
+nav {
+	padding: 10px 0 10px 0px;
+
+}
+
+/* nav a {
+	text-decoration: none;
+	font-size: 1.125em;
+	font-weight: bold;
+	color: #333;
+	display: block; */
+	/* [disabled]margin: 15px; */
+	/* padding: 20px 0;
+	margin: 20px 0;
+	border: 1px solid #a6abc5;
+	background: url(../css/mobile_link_arrow.png) no-repeat right center;
+	background-color: #FF6600;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}*/
+
+.nav2 {
+	//* display: inline-block; *//
+	text-decoration: none;
+	font-weight: bold;
+	color: #333;
+	padding: 5px;
+	margin: 10px 2px;
+	min-width: 13em;
+	width: 20%;
+	border: 1px solid #a6abc5;
+	background-color: #FF6600;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.promo {
+	margin: 5px 0 0 0;
+}
+
+
+.oasisBwLogo {
+	display: block;
+	margin: 0 auto 10px auto;
+	float: none;
+	}
+footer { 
+	padding: 10px 10px 10px 10px; 
+}
+
+/* h1 { font-size: 2em; color: #333333; margin: 0 0 .5em 0;  }*/
+
+
+/* #content h2 {
+    border-bottom: 1px dotted #c0c0c0;
+    border-top: 1px dotted #c0c0c0;
+    color: #0000cc;
+    font-family: Times New Roman,Verdana,Arial,sans-serif;
+    font-size: 5px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+}
+*/

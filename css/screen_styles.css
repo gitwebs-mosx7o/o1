@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Global Content Formatting and Styles */
+
+body{ /* ok same */
+	color: #333333;
+	line-height: 1.5em;
+	font-family: Verdana,Helvetica,Sans-Serif;
+	font-size: 14px;
+	background-color: #FF6600;
+	background-attachment: scroll;
+	background-repeat: repeat-y;
+	background-position: center top;
+
+	margin: 0 auto;
+	padding: 0;
+	background-image:url(../assets/images/content.gif)
+}
+
+.page {
+	max-width: 980px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color: #fff;
+	}
+
+header {
+	margin: 0 auto;
+	text-align: center;
+	border-top: 5px solid #658DB5;
+}
+
+a.logo {
+	text-decoration: none;
+	padding-top: 100px;
+	}
+
+h1 { font-size: 2em; color: #333333; margin: 0 0 .5em 0;  }
+h2 { font-size: 1.7em; margin: 0 0 1em 0; }
+h3 { font-size: 1.5em; margin: 0 0 0.5em 0; }
+p { margin: 0 0 .75em 0; }
+a { color: #FF6600; }
+a:hover { color: #009eff; }
+
+footer { 
+	font-size: .85em; 
+	color: #333333; 
+	background-color: #FF66; 
+	padding: 10px 10px 10px 25%; 
+}
+
+a.nav { /* this just applied to a items with class of nav */
+
+    color: #0000CC;
+    font-family: Times New Roman,Verdana,Arial,Sans-Serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.promo {
+	margin-top: 20px;
+}
+
+.map {
+	margin: 10px auto;
+}
+
+
+
+
